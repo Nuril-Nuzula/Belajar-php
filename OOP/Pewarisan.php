@@ -33,3 +33,16 @@ echo $harimau->getJenis();
 echo PHP_EOL;
 echo $singa->getJenis();
 echo PHP_EOL;
+
+class Mamalia
+{
+public function menyusui()
+{
+echo 'mik susu aaahhh';
+}
+}
+class Kambing extends Hewan, Mamalia
+{
+}
+$kambing = new Kambing();
+
