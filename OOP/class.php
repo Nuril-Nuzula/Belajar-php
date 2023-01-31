@@ -1,5 +1,6 @@
 <?php
 class Mobil {
+
     // anatomi Class
 public function jalan()
 {
