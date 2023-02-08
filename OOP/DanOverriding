@@ -34,3 +34,7 @@ class SuffledPostRepository extends PostRepository
     }
 }
 
+$postRepository = new PostRepository();
+print_r($postRepository->getLatestPost());
+$suffledPostRepository = new SuffledPostRepository();
+print_r($suffledPostRepository->getLatestPost());
